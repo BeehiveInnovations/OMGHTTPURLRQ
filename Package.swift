@@ -12,13 +12,28 @@ let package = Package(
     ],
     products: [
         .library(
+            name: "OMGHTTPURLRQ-Static",
+            type: .static,
+            targets: ["OMGHTTPURLRQ"]),
+        .library(
+            name: "OMGHTTPURLRQUserAgent-Static",
+            type: .static,
+            targets: ["OMGHTTPURLRQUserAgent"]),
+        .library(
+            name: "OMGHTTPURLRQFormURLEncode-Static",
+            type: .static,
+            targets: ["OMGHTTPURLRQFormURLEncode"]),
+        .library(
             name: "OMGHTTPURLRQ",
+            type: .dynamic,
             targets: ["OMGHTTPURLRQ"]),
         .library(
             name: "OMGHTTPURLRQUserAgent",
+            type: .dynamic,
             targets: ["OMGHTTPURLRQUserAgent"]),
         .library(
             name: "OMGHTTPURLRQFormURLEncode",
+            type: .dynamic,
             targets: ["OMGHTTPURLRQFormURLEncode"]),
     ],
     dependencies: [],
