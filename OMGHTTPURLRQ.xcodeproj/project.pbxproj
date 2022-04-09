@@ -157,6 +157,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 63EDFE661A7FFCF10030F974;
@@ -209,6 +210,82 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		29EF1FA5280212B300C2060E /* Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 3.3.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
+				PRODUCT_NAME = OMGHTTPURLRQ;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "macosx watchsimulator watchos appletvsimulator appletvos iphonesimulator iphoneos";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Test;
+		};
+		29EF1FA6280212B300C2060E /* Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.mxcl.$(PRODUCT_NAME:rfc1034identifier)";
+				TARGETED_DEVICE_FAMILY = "1,2,3,4";
+			};
+			name = Test;
+		};
+		29EF1FA7280212B300C2060E /* Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.mxcl.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Test;
+		};
 		63EDFE6B1A7FFCF10030F974 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -372,6 +449,7 @@
 			buildConfigurations = (
 				63EDFE6B1A7FFCF10030F974 /* Debug */,
 				63EDFE6C1A7FFCF10030F974 /* Release */,
+				29EF1FA5280212B300C2060E /* Test */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -381,6 +459,7 @@
 			buildConfigurations = (
 				63EDFE871A7FFD0E0030F974 /* Debug */,
 				63EDFE881A7FFD0E0030F974 /* Release */,
+				29EF1FA6280212B300C2060E /* Test */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -390,6 +469,7 @@
 			buildConfigurations = (
 				63EDFE8A1A7FFD0E0030F974 /* Debug */,
 				63EDFE8B1A7FFD0E0030F974 /* Release */,
+				29EF1FA7280212B300C2060E /* Test */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
