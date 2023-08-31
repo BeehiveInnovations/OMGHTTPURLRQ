@@ -5,10 +5,10 @@ import PackageDescription
 let package = Package(
     name: "OMGHTTPURLRQ",
     platforms: [
-        .iOS(.v9),
+        .iOS(.v11),
         .tvOS(.v9),
-        .watchOS(.v2),
-        .macOS(.v10_10)
+        .watchOS(.v3),
+        .macOS(.v10_13)
     ],
     products: [
         .library(
